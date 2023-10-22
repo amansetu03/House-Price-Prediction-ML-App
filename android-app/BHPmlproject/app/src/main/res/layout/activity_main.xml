@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House price predictor"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/sqft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Total Square feet"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/bath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter No of bathroom"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/bhk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter BHK"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Location"/>
+
+<Button
+    android:id="@+id/Predictbtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Predict"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    />
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+
+        />
+
+</LinearLayout>
