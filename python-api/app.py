@@ -22,4 +22,4 @@ def predict():
     return jsonify(result)
 
 if __name__ == "__main__":
-    app.run(host='http://codeplace.pythonanywhere.com', port=2545,debug=True)
+    app.run(debug=True)
