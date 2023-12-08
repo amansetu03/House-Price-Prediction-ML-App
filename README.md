@@ -53,12 +53,13 @@ Example request:
 }
 
 ```
-Example response:
+Example response: in lakh
 ```json
 {
-    "Price": 250000
+    "Price": 47.81
 }
 ```
+
 
 
 <img src="https://github.com/amansetu03/House-Price-Prediction-ML-App/assets/106844274/68f5c988-b87f-4dc4-ae1b-27e31721e8a8" style="width:30%; float:left; margin:35px;">
